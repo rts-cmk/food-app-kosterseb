@@ -25,7 +25,7 @@
     width: 100%;
     max-width: 400px;
     height: 820px;
-    background: #f5f5f5;
+    background: #ffffff;
     border-radius: 30px;
     overflow: hidden;
     position: relative;
@@ -174,7 +174,7 @@
     left: 0;
     right: 0;
     height: 80px;
-    background: linear-gradient(135deg, #ff0015bd 0%, #ff6b6b 100%);
+    background: linear-gradient(135deg, #fa3444 0%, #f84141 100%);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -221,7 +221,7 @@
     background: white;
     font-size: 20px;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
   }
   
   .product-detail-image {
@@ -233,14 +233,10 @@
     justify-content: center;
     align-items: center;
   }
-  
-  .burger-emoji {
-    font-size: 200px;
-  }
 
   .burger-emoji img {
-    width: 180px;
-    height: 180px;
+    width: 280px;
+    height: 280px;
     object-fit: contain;
   }
   

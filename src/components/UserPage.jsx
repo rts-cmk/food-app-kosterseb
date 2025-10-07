@@ -36,12 +36,12 @@ function UserPage() {
         </div>
 
         <div className="profile-field">
-          <label>Password 🔒</label>
+          <label>Password</label>
           <input type="password" value="••••••••••" readOnly />
         </div>
 
         <div className="profile-actions">
-          <button className="edit-btn">Edit Profile ✏️</button>
+          <button className="edit-btn">Edit Profile</button>
           <button className="logout-btn" onClick={() => navigate('/')}>Log out →</button>
         </div>
       </div>

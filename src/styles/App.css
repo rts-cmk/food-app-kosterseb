@@ -169,16 +169,16 @@
   
   .bottom-nav {
     position: absolute;
-    background-image: url('/src/assets/navbar.png');
+    background: url('/src/assets/navbar.png') center no-repeat;
+    background-size: 460px;
     bottom: 0;
     left: 0;
     right: 0;
     height: 80px;
-    background: linear-gradient(135deg, #fa3444 0%, #f84141 100%);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 15px;
   }
   
   .nav-btn {
@@ -199,11 +199,12 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: rgb(255, 0, 0);
+    background: rgb(253, 57, 57);
+    opacity: 1;
     color: #ffffff;
     font-size: 32px;
-    margin-top: -40px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin-top: -90px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.75);
   }
   
   /* Product Page Styles */

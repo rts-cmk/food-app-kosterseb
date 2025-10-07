@@ -25,7 +25,7 @@ export const products = [
     {
         id: 2,
         name: 'Hamburger',
-        subtitle: 'Veggie Burger',
+        subtitle: 'Veggie Burger from Burger King',
         rating: 4.8,
         price: 7.50,
         image: burgertwoImg,
@@ -35,7 +35,7 @@ export const products = [
     {
         id: 3,
         name: 'Hamburger',
-        subtitle: 'Chicken Burger',
+        subtitle: 'Chicken Burger from McDonalds',
         rating: 4.6,
         price: 9.00,
         image: burgerthreeImg,
@@ -45,7 +45,7 @@ export const products = [
     {
         id: 4,
         name: 'Hamburger',
-        subtitle: 'Fried Chicken Burger',
+        subtitle: 'Fried Chicken Burger from KFC',
         rating: 4.5,
         price: 9.50,
         image: burgerfourImg,
@@ -55,9 +55,9 @@ export const products = [
     {
         id: 5,
         name: 'Burger and Fries',
-        subtitle: 'Menu Combo',
+        subtitle: 'Menu Combo from Wendy\'s',
         rating: 4.6,
-        price: 9.50,
+        price: 12.50,
         image: menuoneImg,
         description: "Burger and fries combo from Burger King.",
         prepTime: '31 mins'
@@ -65,9 +65,9 @@ export const products = [
     {
         id: 6,
         name: 'Burger, fries and drink',
-        subtitle: 'Menu Combo',
+        subtitle: 'Menu Combo from Burger King',
         rating: 4.8,
-        price: 9.50,
+        price: 15.80,
         image: menutwoImg,
         description: "Burger with fries and a refreshing drink.",
         prepTime: '33 mins'
@@ -75,9 +75,9 @@ export const products = [
     {
         id: 7,
         name: 'Super Menu',
-        subtitle: 'Menu Combo',
+        subtitle: 'Menu Combo from McDonalds',
         rating: 5,
-        price: 9.50,
+        price: 19.99,
         image: menuthreeImg,
         description: "Burger, fries, drink, and dessert combo.",
         prepTime: '35 mins'
@@ -86,10 +86,10 @@ export const products = [
         id: 8,
         name: 'Chicken Nuggets',
         subtitle: 'Nuggets from McDonalds',
-        rating: 4.5,
-        price: 9.50,
+        rating: 4.3,
+        price: 2.99,
         image: nuggetsImg,
-        description: "Golden fried chicken with special sauce.",
+        description: "Golden fried nuggets with special sauce.",
         prepTime: '8 mins'
       }
 ];

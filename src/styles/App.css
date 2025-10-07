@@ -55,7 +55,7 @@
   .profile-pic-small {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 30%;
     background: linear-gradient(135deg, #ff6b9d 0%, #ffa07a 100%);
     display: flex;
     align-items: center;
@@ -372,17 +372,30 @@
   .user-header .settings-btn {
     background: transparent;
     color: white;
-    border: 2px solid rgba(255,255,255,0.3);
+  }
+
+  .settings-btn img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    object-fit: contain;
+  }
+
+  .back-btn img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    object-fit: contain;
   }
   
   .profile-section {
     flex: 1;
     background: white;
-    margin: 0 25px 25px;
+    margin: 60px 0px 0px;
     border-radius: 25px;
     padding: 80px 25px 25px;
     position: relative;
-    overflow-y: auto;
+    overflow-y: visible;
   }
   
   .profile-pic-large {
@@ -390,8 +403,8 @@
     height: 120px;
     border-radius: 25px;
     background: white;
-    border: 5px solid white;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 5px solid rgb(248, 65, 65);
+    box-shadow: 0 4px 12px rgba(246, 73, 73, 0.622);
     position: absolute;
     top: -60px;
     left: 50%;
@@ -400,6 +413,14 @@
     align-items: center;
     justify-content: center;
     font-size: 60px;
+    z-index: 1;
+  }
+
+  .profile-pic-large img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 20px;
   }
   
   .profile-field {
@@ -425,7 +446,7 @@
   .profile-actions {
     display: flex;
     gap: 15px;
-    margin-top: 30px;
+    margin-top: 150px;
   }
   
   .edit-btn, .logout-btn {

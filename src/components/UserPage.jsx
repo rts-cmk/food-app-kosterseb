@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import profileIcon from '../assets/profile-icon-large.svg';
 
 function UserPage() {
   const navigate = useNavigate();
@@ -7,18 +8,18 @@ function UserPage() {
     name: '',
     email: '',
     address: '',
-    avatar: '👤'
+    avatar: profileIcon
   });
 
   return (
     <div className="page user-page">
       <header className="user-header">
-        <button className="back-btn" onClick={() => navigate('/')}>←</button>
-        <button className="settings-btn">⚙</button>
+        <button className="back-btn" onClick={() => navigate('/')}><img src="/src/assets/arrow-icon.svg" alt="" /></button>
+        <button className="settings-btn"><img src="/src/assets/settings-icon.svg" alt="" /></button>
       </header>
 
       <div className="profile-section">
-        <div className="profile-pic-large">{user.avatar}</div>
+        <div className="profile-pic-large"><img src={user.avatar} alt=""></img></div>
 
         <div className="profile-field">
           <label>Name</label>

@@ -7,7 +7,7 @@ import burgerfourImg from '../assets/burger4.svg';
 import menuoneImg from '../assets/menu1.webp';
 import menutwoImg from '../assets/menu2.png';
 import menuthreeImg from '../assets/menu3.png';
-import menufourImg from '../assets/menu4.png';
+import nuggetsImg from '../assets/nuggets.webp';
 
 
 // Product data
@@ -56,40 +56,40 @@ export const products = [
         id: 5,
         name: 'Burger and Fries',
         subtitle: 'Menu Combo',
-        rating: 4.5,
+        rating: 4.6,
         price: 9.50,
         image: menuoneImg,
-        description: "Golden fried chicken with special sauce.",
-        prepTime: '28 mins'
+        description: "Burger and fries combo from Burger King.",
+        prepTime: '31 mins'
     },
     {
         id: 6,
         name: 'Burger, fries and drink',
         subtitle: 'Menu Combo',
-        rating: 4.5,
+        rating: 4.8,
         price: 9.50,
         image: menutwoImg,
-        description: "Golden fried chicken with special sauce.",
-        prepTime: '28 mins'
+        description: "Burger with fries and a refreshing drink.",
+        prepTime: '33 mins'
     },
     {
         id: 7,
         name: 'Super Menu',
         subtitle: 'Menu Combo',
-        rating: 4.5,
+        rating: 5,
         price: 9.50,
         image: menuthreeImg,
-        description: "Golden fried chicken with special sauce.",
-        prepTime: '28 mins'
+        description: "Burger, fries, drink, and dessert combo.",
+        prepTime: '35 mins'
       },
       {
         id: 8,
-        name: 'Hamburger',
-        subtitle: 'Fried Chicken Burger',
+        name: 'Chicken Nuggets',
+        subtitle: 'Nuggets from McDonalds',
         rating: 4.5,
         price: 9.50,
-        image: menufourImg,
+        image: nuggetsImg,
         description: "Golden fried chicken with special sauce.",
-        prepTime: '28 mins'
+        prepTime: '8 mins'
       }
 ];

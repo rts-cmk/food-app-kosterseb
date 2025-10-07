@@ -24,7 +24,7 @@ function ProductPage() {
       </header>
 
       <div className="product-detail-image">
-        <div className="burger-emoji">{product.image}</div>
+        <div className="burger-emoji"><img src={product.image}></img></div>
       </div>
 
       <div className="product-details">

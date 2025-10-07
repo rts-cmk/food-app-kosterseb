@@ -26,7 +26,7 @@ function HomePage() {
       </header>
 
       <div className="search-bar">
-        <span className="search-icon">🔍</span>
+        <span className="search-icon"><img src="/src/assets/search-icon.svg" alt="" /></span>
         <input type="text" placeholder="Search" />
         <button className="filter-btn"><img src="/src/assets/slider-icon.svg"></img></button>
       </div>

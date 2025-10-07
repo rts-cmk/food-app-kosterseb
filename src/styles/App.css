@@ -97,6 +97,10 @@
     font-size: 20px;
     cursor: pointer;
   }
+
+  .filter-btn img {
+    margin-top: 4px;
+  }
   
   .products-grid {
     flex: 1;

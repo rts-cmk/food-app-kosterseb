@@ -19,8 +19,8 @@ function ProductPage() {
   return (
     <div className="page product-page">
       <header className="product-header">
-        <button className="back-btn" onClick={() => navigate('/')}>←</button>
-        <button className="search-btn">🔍</button>
+        <button className="back-btn" onClick={() => navigate('/')}><img src="/src/assets/blac-arrow-icon.svg" alt="" /></button>
+        <button className="search-btn"><img src="/src/assets/search-icon.svg" alt="" /></button>
       </header>
 
       <div className="product-detail-image">
@@ -30,7 +30,7 @@ function ProductPage() {
       <div className="product-details">
         <h2>{product.name} {product.subtitle}</h2>
         <div className="product-meta">
-          <span className="rating">⭐ {product.rating}</span>
+          <span className="rating"><img src="/src/assets/rating-star-icon.svg" alt="" /> {product.rating}</span>
           <span className="prep-time">🕐 {product.prepTime}</span>
         </div>
 

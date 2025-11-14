@@ -1,0 +1,111 @@
+// Logo
+    
+.logo-2
+    background-color: #f74949
+    width: 200px
+    height: 200px
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+
+    h1
+        color: white
+        flex: 1
+        margin: 0
+        padding: 0
+        text-align: center
+        line-height: 200px
+        font-family: Arial, sans-serif
+        font-size: 24px
+        user-select: none
+        
+    &:hover
+        background-color: #b92626
+    transition: background-color 0.3s ease,
+    cursor: pointer
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+    border: 2px solid #4CAF50
+    
+
+    &:active
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+        transform: translateY(4px)
+    transition: box-shadow 0.1s ease, transform 0.1s ease, 
+    margin: 20px auto
+    position: relative
+    overflow: hidden
+    z-index: 0
+    border: 2px solid #08690b
+    
+
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: rgba(255, 255, 255, 0.1)
+        border-radius: 50%
+        z-index: -1
+        transition: transform 0.3s ease
+        transform: scale(0)
+        
+        
+
+// Check Button
+
+.check-button
+    background-color: #4CAF50
+    border: none
+    width: 200px
+    color: white
+    padding: 15px 32px
+    text-align: center
+    text-decoration: none
+    display: inline-block
+    font-size: 16px
+    margin: 4px 2px
+    cursor: pointer
+    border-radius: 4px
+    transition: background-color 0.3s ease
+
+    button
+        all: unset
+        cursor: pointer
+        
+
+    &:hover
+        background-color: #45a049
+        transform: scale(1.05)
+
+    &:active
+        background-color: #3e8e41
+    transition: background-color 0.1s ease
+    position: relative
+    overflow: hidden
+    z-index: 0
+    
+
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: rgba(255, 255, 255, 0.1)
+        border-radius: 4px
+        z-index: -1
+        transition: transform 0.3s ease
+        transform: scale(0)
+
+    &--checked
+        background-color: #2196F3
+
+        &:hover
+            background-color: #45a049
+            transition: background-color 4.8s ease
+            transform: scale(1.05)
+            transoition: transform 6.8s ease
